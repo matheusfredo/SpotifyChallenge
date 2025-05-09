@@ -43,7 +43,7 @@ const Song = () => {
           <img
             width={75}
             height={75}
-            src={artistObj.image}
+            src={image}
             alt={`Imagem do Artista ${artist}`}
           />
         </Link>
@@ -54,7 +54,7 @@ const Song = () => {
         />
         <div>
           <p className="song__name">{name}</p>
-          <p>Henrique & Juliano</p>
+          <p>{artist}</p>
         </div>
       </div>
     </div>
